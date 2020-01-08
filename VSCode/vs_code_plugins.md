@@ -1,4 +1,4 @@
-## VsCode Extensions
+## VSCode Extensions
 
 ### Web Development Plugins
 
