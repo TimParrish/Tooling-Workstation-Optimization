@@ -30,7 +30,7 @@ Create a gitingore file specific to your operating system and use case
 
 [GitIgnore File Generator at www.gitignore.io](https://www.gitignore.io/)
 
-Place the created gitignore file in ~/.gitignore_global
+Place the created gitignore file in `~/.gitignore_global`
 
 After creating the global gitignore file, add the location to the git config on the machine
 
