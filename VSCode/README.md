@@ -1,6 +1,6 @@
 ### VsCode
 
-You can find the .settings.json file in this repo and look at the settings that I like to run on VsCode. If you have trouble locating your settings.json file, you can find the operating system specific path and other usefull settings in [THIS LINK](https://code.visualstudio.com/docs/getstarted/settings)
+You can find the .settings.json file in this repo and look at the settings that I like to run on VsCode. If you have trouble locating your settings.json file, you can find the [operating system specific path and other usefull settings](https://code.visualstudio.com/docs/getstarted/settings)
 
 Some usuful shortcuts in VsCode:
 
