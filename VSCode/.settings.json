@@ -1,0 +1,65 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Monokai",
+    "editor.rulers": [
+        80
+    ],
+    "editor.parameterHints.enabled": false,
+    "editor.detectIndentation": true,
+    "files.trimTrailingWhitespace": true,
+    //call down to prettier extension on save
+    "editor.formatOnSave": false,
+    "editor.insertSpaces": false,
+    // Controls the font size in pixels.
+    "editor.fontSize": 14,
+    // Enable only for javascript below
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            135
+        ],
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[kotlin]": {
+        "editor.rulers": [
+            120
+        ],
+        "editor.tabSize": 4
+    },
+    "[sql]": {
+        "editor.rulers": [
+            120
+        ],
+        "editor.tabSize": 2
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "todo-tree.defaultHighlight": {
+        "icon": "alert",
+        "type": "word",
+        "foreground": "white",
+        "background": "yellow",
+        "opacity": 50,
+        "iconColour": "blue",
+    },
+    "colorize.languages": [
+        "css",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg",
+        "javascript"
+    ],
+    //This will revert the settings default back to the
+    //json style, easier to use your own settings
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.editor": "json",
+    "workbench.iconTheme": "vscode-icons"
+}
