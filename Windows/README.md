@@ -28,7 +28,11 @@ Start-Process $profile.CurrentUserAllHosts
 
 //it is likely that the Default Execution Policy will need to be updated in order for the profile to run as a script
 //check the execution policy
-```Get-ExecutionPolicy```
+```
+Get-ExecutionPolicy
+```
 
 //set the execution policy to 'unrestricted'
-```Set-ExecutionPolicy unrestricted```
+```
+Set-ExecutionPolicy unrestricted
+```
