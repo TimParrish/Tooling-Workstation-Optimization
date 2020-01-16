@@ -17,22 +17,27 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 ## Windows PowerShell profile config
 
-//create a folder for WindowsPowerShell
+Create a folder for WindowsPowerShell
+```
 New-Item -Path C:\Users\USERNAME\OneDrive\Documents\ -ItemType Directory -Name WindowsPowerShell
-
-//create the WindowsPowerShell prifile file to edit
+```
+Create the WindowsPowerShell prifile file to edit
+```
 New-Item -Path C:\Users\USERNAME\OneDrive\Documents\WindowsPowerShell\ -ItemType File -Name profile.ps1
+```
 
-//launch the default editor to make changes to the file
+Launch the default editor to make changes to the file
+```
 Start-Process $profile.CurrentUserAllHosts
+```
 
-//it is likely that the Default Execution Policy will need to be updated in order for the profile to run as a script
-//check the execution policy
+It is likely that the Default Execution Policy will need to be updated in order for the profile to run as a script. 
+Check the execution policy by running:
 ```
 Get-ExecutionPolicy
 ```
 
-//set the execution policy to 'unrestricted'
+set the execution policy to 'unrestricted'
 ```
 Set-ExecutionPolicy unrestricted
 ```
