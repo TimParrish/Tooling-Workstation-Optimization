@@ -15,7 +15,18 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 - Click and drag shortcuts to this folder in order for them to be a startup process
 - [Tutorial for adding startup processes in Windows](https://winaero.com/blog/how-to-add-or-remove-startup-apps-in-windows-10/)
 
-## Windows PowerShell profile config
+### Node.js and Chocolatey package manager
+
+Customize the powershell by launching it and right clicking on the header and selecting 'properties'
+[Install node.js current LTS version from their website](https://nodejs.org/en/), it includes the chocolatey package manager
+
+After installing node and Chocolatey, use the package manager to add a few more programs
+
+```
+choco install git sublimetext3 notepadplusplus slack sonos-controller -y
+```
+
+### Windows PowerShell profile config
 
 Create a folder for WindowsPowerShell
 ```
