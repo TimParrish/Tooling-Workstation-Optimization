@@ -26,3 +26,21 @@ $host.UI.RawUI.WindowTitle = "PS >> User: $curUser >> Current DIR: $((Get-Locati
 Return " "
 
 }
+
+
+function ChangeDirectoryToDesktop { 
+  cd C:\Users\USERNAME\Desktop 
+} 
+
+function ChangeDirectoryToGitRepos { 
+  cd C:\Users\USERNAME\Desktop\GitRepos 
+} 
+
+function CreateDirectoryFromCurrentPath { 
+  Param( [parameter(Mandatory=$true)] [String] $FOLDER_NAME ) 
+  New-Item -Path $FOLDER_NAME -ItemType Directory 
+}
+
+Set-Alias Desktop ChangeDirectoryToDesktop 
+Set-Alias GitRepos ChangeDirectoryToGitRepos 
+Set-Alias MakeDir CreateDirectoryFromCurrentPath
