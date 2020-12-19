@@ -1,8 +1,8 @@
 {
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Default Dark+",
     "editor.rulers": [
-        80
+        150
     ],
     "editor.parameterHints.enabled": false,
     "editor.detectIndentation": true,
@@ -16,16 +16,22 @@
     "[javascript]": {
         "editor.formatOnSave": true,
         "editor.rulers": [
-            135
+            150
         ],
         "editor.tabSize": 2,
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[kotlin]": {
         "editor.rulers": [
-            120
+            150
         ],
         "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.rulers": [
+            150
+        ],
+        "editor.tabSize": 2
     },
     "[sql]": {
         "editor.rulers": [
