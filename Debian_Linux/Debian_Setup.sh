@@ -9,7 +9,7 @@ sudo apt-get install -y automake autoconf libtool build-essential git
 sudo apt-get install -y valgrind lcov clang ctags meld curl
 
 # install personal preferences
-sudo apt-get install -y konsole gpaste tmux
+sudo apt-get install -y konsole gpaste tmux tree
 
 # install vundle
 if [ ! -d ~/.vim ]; then
