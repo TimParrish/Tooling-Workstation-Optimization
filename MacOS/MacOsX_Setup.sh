@@ -10,10 +10,10 @@
 brew update
 
 #install GitHub
-brew install git
+#brew install git
 
 #set a custom lock screen message
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText 'Vader Lives'
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText 'Windy Hacker'
 
 #add filepath to finder windows
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES; killall Finder
