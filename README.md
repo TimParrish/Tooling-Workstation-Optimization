@@ -11,7 +11,7 @@ See the folders for application or operating system-specific tooling
     * Open dev tools
     * Settings -> Preferences -> Appearance -> Theme -> Dark
   * Install [DuckDuckGo](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
-* Install VSCode, configure settings, install plug-ins (see the VSCode directory in this repo)
+* Install VSCode, configure settings, install plug-ins (see the VSCode directory in this repository)
 * Download Sublime Text 3
   * Add Package Control and Markdown Preview package
   * Ctrl+Shift+P (Cmd+Shift+P on Mac) will open the command interface
