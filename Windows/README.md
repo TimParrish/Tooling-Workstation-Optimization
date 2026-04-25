@@ -1,6 +1,6 @@
 # Bash files to get things going on a Windows machine with MINGW64 as the terminal
 
-When I did this, the default path was for the Desktop of the current user, most of this configuration was simply to get the ability to simply change the directory to a convienient location, in this case, it was the Desktop
+When I did this, the default path was for the Desktop of the current user; most of this configuration was to get the ability to change the directory to a convenient location, in this case, it was the Desktop
 
 ### Add startup processes
 
@@ -17,10 +17,10 @@ C:\Users\USERNAME\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 ### Node.js and Chocolatey package manager
 
-Customize the powershell by launching it and right clicking on the header and selecting 'properties'
-[Install node.js current LTS version from their website](https://nodejs.org/en/), it includes the chocolatey package manager
+Customize the PowerShell by launching it and right-clicking on the header and selecting 'properties'
+[Install node.js current LTS version from their website](https://nodejs.org/en/), which includes the Chocolatey package manager
 
-After installing node and Chocolatey, use the package manager to add a few more programs
+After installing Node and Chocolatey, use the package manager to add a few more programs
 
 ```
 choco install git sublimetext3 notepadplusplus slack sonos-controller -y
@@ -32,7 +32,7 @@ Create a folder for WindowsPowerShell
 ```
 New-Item -Path C:\Users\USERNAME\OneDrive\Documents\ -ItemType Directory -Name WindowsPowerShell
 ```
-Create the WindowsPowerShell prifile file to edit
+Create the WindowsPowerShell profile file to edit
 ```
 New-Item -Path C:\Users\USERNAME\OneDrive\Documents\WindowsPowerShell\ -ItemType File -Name profile.ps1
 ```
